@@ -80,7 +80,7 @@ export default function ProductSelection() {
          <Col>
             <div className="text-center">
                <div>Amount: <span>{amount}</span></div>
-               <input type="range" id="price" min="0" max={typeof selected !== 'undefined' ? selected.maxAmount : 0} value={amount}
+               <input type="range" id="amount" min="0" max={typeof selected !== 'undefined' ? selected.maxAmount : 0} value={amount}
                      onChange={handleAmount}/>
             </div>            
          </Col>

@@ -8,7 +8,7 @@ You'll need `Node.js` installed at least at version 18.9. You'll also need acces
 
 ```
 npm install # install all dependencies
-npm run dev # Run a development server (by default http://localhost:5173/)
+npm run dev # Run a development server (by default http://localhost:5173/b24-front-challenge-ts/)
 ```
 
 
@@ -22,7 +22,8 @@ npm run dev # Run a development server (by default http://localhost:5173/)
 - **v0.06**. Included calculations for totals and small validations.
 - **v0.07**. Added Modal Checkout and Toast Errors.
 - **v0.08**. Toast messages Refactored.
-- **v0.09**. Fixed some undefined dataypes.
+- **v0.09**. Fixed some undefined datatypes.
+- **v0.10**. Added .yml file for deploy on GitHub Pages.
 
 
 # The Challenge:
